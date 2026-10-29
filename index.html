@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards de Ondulatória - Física</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Flashcards de Ondulatória 🌊</h1>
+        <p>Clique nos cartões para revelar as respostas e testar seus conhecimentos!</p>
+    </header>
+
+    <main>
+        <!-- SEÇÃO DE FOTOS (3 espaços reservados) -->
+        <section class="photos-section">
+            <h2>Ilustrações de Conceitos</h2>
+            <div class="photo-grid">
+                <!-- Foto 1 -->
+                <div class="photo-card">
+                    <img src="foto1.jpg" alt="Exemplo de Onda Transversal">
+                    <p><strong>1. Onda Transversal</strong><br><span>(Insira sua foto como 'foto1.jpg')</span></p>
+                </div>
+                <!-- Foto 2 -->
+                <div class="photo-card">
+                    <img src="foto2.jpg" alt="Fenômeno da Difração">
+                    <p><strong>2. Difração de Ondas</strong><br><span>(Insira sua foto como 'foto2.jpg')</span></p>
+                </div>
+                <!-- Foto 3 -->
+                <div class="photo-card">
+                    <img src="foto3.jpg" alt="Espectro Eletromagnético">
+                    <p><strong>3. Espectro Eletromagnético</strong><br><span>(Insira sua foto como 'foto3.jpg')</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE FLASHCARDS (3 flashcards sobre ondulatória) -->
+        <section class="flashcards-section">
+            <h2>Flashcards de Estudo</h2>
+            <div class="flashcards-grid">
+                
+                <!-- Flashcard 1 -->
+                <div class="flashcard" onclick="this.classList.toggle('flipped')">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <h3>Pergunta 1</h3>
+                            <p>O que é uma onda mecânica?</p>
+                            <span class="hint">🔄 Clique para ver a resposta</span>
+                        </div>
+                        <div class="flashcard-back">
+                            <h3>Resposta 1</h3>
+                            <p>É uma perturbação que necessita de um <strong>meio material</strong> (sólido, líquido ou gasoso) para se propagar, transportando energia, mas não matéria.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flashcard 2 -->
+                <div class="flashcard" onclick="this.classList.toggle('flipped')">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <h3>Pergunta 2</h3>
+                            <p>Qual é a Equação Fundamental da Ondulatória?</p>
+                            <span class="hint">🔄 Clique para ver a resposta</span>
+                        </div>
+                        <div class="flashcard-back">
+                            <h3>Resposta 2</h3>
+                            <p><strong>$v = \lambda \cdot f$</strong><br><br>Onde: <br><i>v</i> = velocidade<br><i>$\lambda$</i> = comprimento de onda<br><i>f</i> = frequência</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flashcard 3 -->
+                <div class="flashcard" onclick="this.classList.toggle('flipped')">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <h3>Pergunta 3</h3>
+                            <p>O que diferencia uma onda transversal de uma onda longitudinal?</p>
+                            <span class="hint">🔄 Clique para ver a resposta</span>
+                        </div>
+                        <div class="flashcard-back">
+                            <h3>Resposta 3</h3>
+                            <p><strong>Transversal:</strong> A vibração é perpendicular à direção de propagação (ex: luz).<br><strong>Longitudinal:</strong> A vibração é na mesma direção da propagação (ex: som).</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Estudo de Física | Desenvolvido para GitHub Pages</p>
+    </footer>
+</body>
+</html>
